@@ -1,0 +1,10 @@
+^E:\ATOMICMEM\.BUILD\CMAKEFILES\4364D9207BE45ABE09763707C1315F8D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/AtomicMem -BE:/AtomicMem/.build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/AtomicMem/.build/Memory.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

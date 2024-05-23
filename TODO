@@ -1,0 +1,11 @@
+Add data structs
+    Stack: Implement a stack data structure with push, pop, and peek operations.
+    Queue: Implement a queue data structure with enqueue, dequeue, and peek operations.
+    Priority Queue: Implement a priority queue data structure with insert and extract operations.
+    Hash Table: Implement a hash table data structure with insert, find, and remove operations.
+    Binary Search Tree: Implement a binary search tree data structure with insert, find, and remove operations.
+    Graph: Implement a graph data structure with add vertex, add edge, and remove vertex/edge operations.
+    Heap: Implement a heap data structure (min heap or max heap) with insert, extract, and heapify operations.
+    Trie: Implement a trie data structure for efficient string storage and retrieval.
+    Set: Implement a set data structure with add, remove, and find operations.
+    Double-ended Queue (Deque): Implement a deque data structure with push/pop operations from both ends.
